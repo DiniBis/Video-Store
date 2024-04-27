@@ -36,12 +36,21 @@ PHP and SQL-based movie shopping site
 	- Acteur
 	- ID (auto incrémenté)
 
+|Titre|Prix|Réalisateur|Catégorie|Image|Acteur(s)|ID|
+|-----|----|-----------|---------|-----|---------|--|
+
 - USERS
 	- Mail
 	- Password
 	- ID (auto incrémenté)
 
+|Mail|Password|ID|
+|----|--------|--|
+
 - PANIER
 	- ID Utilisateur
 	- ID Film
 	- ID (auto incrémenté) → permet de retrouver directement cet élément de panier pour le supprimer facilement
+
+|ID_user|ID_movie|ID|
+|-------|--------|--|
